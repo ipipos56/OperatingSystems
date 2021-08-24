@@ -1,0 +1,111 @@
+    1  xrand --list
+    2  sudo apt-get install neofetch
+    3  neofetch
+    4  xorg
+    5  wget https://browser.yandex.ru/download/?banerid=6302000000&zih=1&beta=1&os=linux&x64=1&package=deb&full=1
+    6  sudo dpkg -i ~/Загрузки/yandex*.deb
+    7  ls
+    8  cd Загрузки
+    9  l
+   10  ls
+   11  wget https://browser.yandex.ru/download/?banerid=6302000000&zih=1&beta=1&os=linux&x64=1&package=deb&full=1
+   12  ls
+   13  find .
+   14  find . | grep wget
+   15  find / | grep wget
+   16  find /
+   17  ls
+   18  cat index.html\?banerid\=6302000000 
+   19  1;2c1;2c1;2c
+   20  cat index.html\?banerid\=6302000000 | grep digi
+   21  cat index.html\?banerid\=6302000000 | grep www
+   22  cat index.html\?banerid\=6302000000 | grep
+   23  cat index.html\?banerid\=6302000000 | grep 
+   24  cat index.html\?banerid\=6302000000 | grep  
+   25  cat index.html\?banerid\=6302000000 | grep ""
+   26  man rmdir
+   27  fg
+   28  man rmdir
+   29  man rm
+   30  fg
+   31  sudo apt install git
+   32  git
+   33  git clone https://github.com/ipipos56/PSSHomework.git
+   34  ls
+   35  sudo apt install mingw64
+   36  sudo apt install mingw32
+   37  sudo apt install mingw
+   38  sudo apt install build-essentials
+   39  sudo apt install build-essential
+   40  sudo apt install g++
+   41  sudo apt update
+   42  g++ --version
+   43  sudo apt install g++
+   44  g++ --version
+   45  git checkout task4
+   46  cd PSSHomework/
+   47  git checkout task4
+   48  ls
+   49  git add --all
+   50  git status
+   51  git commit -m "Update files"
+   52  git config --global user.email "ipipos56@bk.ru"
+   53  git config --global user.name "ipipos56"
+   54  git commit -m "Update files"
+   55  git push origin task4
+   56  sudo apt-intall dist-upgrade
+   57  sudo apt install dist-upgrade
+   58  sudo apt dist-upgrade
+   59  git add .
+   60  git commit -m "Update all project"
+   61  git push origin task4
+   62  git add .
+   63  git push origin task4
+   64  git commit -m "Update all projectV2"
+   65  git push origin task4
+   66  git add .
+   67  git add .
+   68  git commit -m "Update all projectV3"
+   69  git push origin task4
+   70  git add .
+   71  git commit -m "Update all projectV4"
+   72  git push origin task4
+   73  sudo apt install dist-upgrade
+   74  sudo apt dist-upgrade
+   75  git checkout task5
+   76  cd PSSHomework/
+   77  git checkout task5
+   78  git pull
+   79  git config --global user.name "ipipos56"
+   80  git config --global user.password "GHklu563lnm"
+   81  git checkout task5
+   82  mkdir task5
+   83  git checkout task4
+   84  git checkout task5
+   85  git checkout task4
+   86  git checkout task5
+   87  git add .
+   88  git commit -m "Copy from previous task"
+   89  git push origin task5
+   90  git add .
+   91  cd PSSHomework/
+   92  git add .
+   93  git commit -m "little update of drivers"
+   94  git push origin task5
+   95  python3 --version
+   96  git clone https://github.com/ipipos56/OperatingSystems.git
+   97  git checkout master
+   98  cd OperatingSystems/
+   99  git checkout master
+  100  mkdir week1
+  101  cd week1
+  102  ls /usr/bin
+  103  ls /usr/bin | sort -r
+  104  ls /usr/bin | sort 
+  105  ls /usr/bin | sort gcc
+  106  ls /usr/bin | sort -r
+  107  ls /usr/bin | sort -r | find gcc
+  108* ls /usr/bin | sort -r | greb gcc/usr
+  109  ls /usr/bin | sort -r | grep gcc
+  110  ls /usr/bin | sort -r | grep gcc> ex1.txt
+  111  history > ex2.txt
