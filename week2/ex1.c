@@ -7,8 +7,8 @@ int main() {
     float floatValue = FLT_MAX;
     double doubleValue = DBL_MAX;
 
-    printf("Integer: %lu %d ", sizeof(int), integerValue);
-    printf("Float: %lu %f ", sizeof(float), floatValue);
-    printf("Double: %lu %f ", sizeof(double), doubleValue);
+    printf("Integer: %lu %d \n", sizeof(int), integerValue);
+    printf("Float: %lu %f \n", sizeof(float), floatValue);
+    printf("Double: %lu %f \n", sizeof(double), doubleValue);
     return 0;
 }
