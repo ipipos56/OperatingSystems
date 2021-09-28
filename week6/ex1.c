@@ -35,16 +35,16 @@ int main() {
         }
         if (minId == -1) 
         {
-            printf("[T = %d] No processes to execute...\n", allTime);
+            printf("T = %d  -  No processes to execute...\n", allTime);
             allTime++;
             continue;
         }
 
         int waitingTime = allTime - arrival[minId];
 
-        printf("[T = %d] Executing process %d...\n", allTime, minId);
+        printf("T = %d  -  Executing process %d...\n", allTime, minId);
         allTime += burst[minId];
-        printf("[T = %d] Process %d has been executed.\n", allTime, minId);
+        printf("T = %d  -  Process %d has been executed.\n", allTime, minId);
         burst[minId] = arrival[minId] = -1;
         done++;
 
