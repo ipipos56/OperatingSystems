@@ -1,0 +1,2 @@
+Address on the disk is a physical address. Operating system can access it to use data only in kernel mode.
+Virtual addresses used by processes. Operating system allocates to them. Process is relative to it.
