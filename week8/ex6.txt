@@ -1,0 +1,3 @@
+8 KB pages => byte offset = 13 bit => 2^13 == 8KB => from virtual address we substract byte offset => 
+16-13 = 3 bits to store index => 2 ^ 3 = 8 entries
+=> answer: 8 entries
