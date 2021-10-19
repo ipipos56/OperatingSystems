@@ -1,0 +1,5 @@
+To increase the Hit/Miss ratio we need to read pages that are already in page frames. So, if the page is referenced in short time, then with higher probability we will get hit
+
+
+To decrease the Hit/Miss ration we need to read pages that are not in page frames. So, we can access new pages each tick or access page that we accessed long time ago
+(this page will be not present in table because it was replaced with other recently accessed page)
