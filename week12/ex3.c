@@ -19,7 +19,8 @@ int pressedHotkeys[3][3] = {
 
 char *messages[3];
 
-int main() {
+int main()
+{
 
     messages[0] = "I passed the Exam!";
     messages[1] = "Get some cappuccino!";
@@ -48,7 +49,7 @@ int main() {
                     {
                         for (int jt = 0; jt < lenHK; jt++)
                         {
-                            if (events[i].code == hotkeysNumbers[it][jt])
+                            if ((int)(events[i].code) == hotkeysNumbers[it][jt])
                                 pressedHotkeys[it][jt] = 1;
                             if (hotkeysNumbers[it][jt] == -1)
                                 pressedHotkeys[it][jt] = 1;
