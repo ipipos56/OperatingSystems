@@ -31,10 +31,6 @@ int main()
     while (1)
     {
 
-        for (int it = 0; it < lenHK; it++)
-            for (int jt = 0; jt < lenHK; jt++)
-                pressedHotkeys[it][jt] = 0;
-
         int val = read(open("/dev/input/by-path/platform-i8042-serio-0-event-kbd", O_RDONLY), events, sizeof(events));
 
         for (int i = 0; i < (int) (val / sizeof(struct input_event)); i++)
@@ -71,7 +67,15 @@ int main()
                 }
                 else if (events[i].value == 0)
                 {
-                    //RELEASE
+                    for (int it = 0; it < lenHK; it++)
+                    {
+                        for (int jt = 0; jt < lenHK; jt++)
+                        {
+                            if ((int)(events[i].code) == hotkeysNumbers[it][jt])
+                                pressedHotkeys[it][jt] = 0;
+                        }
+
+                    }
                 }
             }
         }
