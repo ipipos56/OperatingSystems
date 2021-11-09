@@ -64,7 +64,7 @@ int main() {
                                 sumHot += 1;
 
                         if (sumHot >= lenHK)
-                            printf("%s\n", msg[it]);
+                            printf("%s\n", messages[it]);
 
                     }
                 }
