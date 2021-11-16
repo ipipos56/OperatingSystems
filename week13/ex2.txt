@@ -1,0 +1,13 @@
+Deadlock prevention:
+Deadlock prevention is straightforward check.
+We should guarantee that the next allocation will not be a dedlock.
+This method work with reduced throughput and it is not good.
+
+Deadlock avoidance:
+By deadlock avoidance we can avoid unsafe states, the system must be able to decide whether granting a resource is
+safe or not and make the allocation only when it is safe, but it doesn't guarantee completion.
+We should know information about future resource allocation which sometimes can be wrong.
+
+Deadlock recovery:
+Deadlock recovery is a approach of elimination already happened deadlock.
+Can cause some strange behavior for process. Can be used together with previous deadlock strategies as the last check.
